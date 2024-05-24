@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fraon Defruyt's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>test</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fraon Defruyt's en David's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Over mij</h1>
+    <p class="fraonDefruyt">JeMappelleUneCroisant</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis
+      sint reprehenderit perspiciatis sed? Quas suscipit, harum eaque,
+      voluptatem est molestias vel possimus accusamus minus at alias maxime, aut
+      voluptas.
+    </p>
+    <p class="belangerijk">Reminder:</p>
+    <p class="paars">kanker dikzak</p>
+    <!--  -->
+    <paars>blau</paars>
+    <!--  -->
+    <input type="password" id="ww">
+  </body>
+  <script>
+  const passwordInput = document.getElementById('ww');
+
+  passwordInput.addEventListener('input', function() {
+    const password = passwordInput.value;
+
+    if (password === 'secret') {
+      alert('Access granted!');
+    } else {
+      alert('Access denied!');
+    }
+  });
+  </script>
 </html>
